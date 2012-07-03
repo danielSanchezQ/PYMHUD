@@ -81,4 +81,5 @@ class Custom_hud():
         pm.showWindow(self.window)
         
     def __del__(self):
-        pass
+        self.removeAll()
+        self.destroyWindow()
