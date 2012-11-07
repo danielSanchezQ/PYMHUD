@@ -1,3 +1,5 @@
+#!/usr/local/bin/python
+          # -*- coding: utf-8 -*-
 """
 CUSTOM HEADS UP DISPLAY PYMEL MODULE FOR MAYA
 DONE BY DANIEL SANCHEZ QUIROS, 3danimanimal@gmail.com
@@ -58,7 +60,7 @@ class Custom_hud():
         pm.deleteUI(self.window, window = True)
         
     def __init_window__(self):
-        self.window = pm.window(menuBar = False, widthHeight = [200, 100], title = "PYMHUD by Daniel Sánchez Quirós")
+        self.window = pm.window(menuBar = False, widthHeight = [200, 100], title = "PYMHUD by Daniel Sï¿½nchez Quirï¿½s")
         self.columna = pm.columnLayout(adjustableColumn = True)
         #Name row
         self.row1 = pm.rowLayout(numberOfColumns=3, adjustableColumn = True, parent = self.columna)
