@@ -84,4 +84,4 @@ class Custom_hud():
         
     def __del__(self):
         self.removeAll()
-        self.destroyWindow()
+        #self.destroyWindow()
